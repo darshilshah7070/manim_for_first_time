@@ -109,24 +109,11 @@ class Scene2(Scene):
         outro1=Text("Created by:")
         outro1.shift(3*UP)
         self.play(FadeIn(outro1))
-        outro2=Text("Darshil Shah(22BEC111)",color=BLUE)
+        outro2=Text("Darshil Shah",color=BLUE)
         outro2.shift(2*UP)
         self.play(Write(outro2))
-        outro3=Text("Researched by:")
-        outro3.shift(UP)
-        self.play(FadeIn(outro3))
-        outro4=Text("1.Harshvardhan Singh (22BEC120)",color=YELLOW_B)
+       
         
-        self.play(Write(outro4))
-        outro5=Text("2. Shashwat Joshi (22BEC116)",color=BLUE)
-        outro5.shift(DOWN)
-        self.play(Write(outro5))
-        outro6=Text("3. Satyam Rana (22BEC101)",color=YELLOW_B)
-        outro6.shift(2*DOWN)
-        self.play(Write(outro6))
-        outro7=Text("4. Manthan Shah (22BEC113)",color=BLUE)
-        outro7.shift(3*DOWN)
-        self.play(Write(outro7))
         self.wait(2)
 
 
